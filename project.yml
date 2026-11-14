@@ -1,0 +1,25 @@
+name: ViceCityCountdown
+options:
+  bundleIdPrefix: com.vicecityfan
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+targets:
+  ViceCityCountdown:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: ViceCityCountdown
+    info:
+      path: ViceCityCountdown/Info.plist
+      properties:
+        CFBundleDisplayName: GTA VI Countdown
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.vicecityfan.gtavicountdown
